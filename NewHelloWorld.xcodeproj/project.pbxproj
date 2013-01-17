@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		316D954E16A872AD000E8F58 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 316D954D16A872AD000E8F58 /* Default-568h@2x.png */; };
 		317D68C916A5D02B009EC9AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 317D68C816A5D02B009EC9AF /* UIKit.framework */; };
 		317D68CB16A5D02B009EC9AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 317D68CA16A5D02B009EC9AF /* Foundation.framework */; };
 		317D68CD16A5D02B009EC9AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 317D68CC16A5D02B009EC9AF /* CoreGraphics.framework */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		316D954D16A872AD000E8F58 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		317D68C416A5D02B009EC9AF /* NewHelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewHelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		317D68C816A5D02B009EC9AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		317D68CA16A5D02B009EC9AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,6 +52,7 @@
 		317D68B916A5D02B009EC9AF = {
 			isa = PBXGroup;
 			children = (
+				316D954D16A872AD000E8F58 /* Default-568h@2x.png */,
 				317D68CE16A5D02B009EC9AF /* NewHelloWorld */,
 				317D68C716A5D02B009EC9AF /* Frameworks */,
 				317D68C516A5D02B009EC9AF /* Products */,
@@ -151,6 +154,7 @@
 			files = (
 				317D68D316A5D02B009EC9AF /* InfoPlist.strings in Resources */,
 				317D68DC16A5D02B009EC9AF /* MainStoryboard.storyboard in Resources */,
+				316D954E16A872AD000E8F58 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +279,7 @@
 				317D68E416A5D02B009EC9AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

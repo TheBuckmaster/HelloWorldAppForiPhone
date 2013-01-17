@@ -39,6 +39,15 @@
 }
 
 - (IBAction)changeGreeting:(id)sender {
+    
+    self.username = self.textField.text;
+    
+    NSString *nameString = self.username;
+    
+    if ([nameString length == 0]) {
+        
+        nameString = @"World";
+    }
 
 }
 @end
