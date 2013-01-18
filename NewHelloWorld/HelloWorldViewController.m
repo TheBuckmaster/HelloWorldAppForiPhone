@@ -38,16 +38,31 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (BOOL)textFieldShouldReturn:(UITextField *)theTextField {
+    
+    if (theTextField == self.textField) {
+        
+        [theTextField resignFirstResponder];
+        
+    }
+    
+    return YES;
+    
+}
+
 - (IBAction)changeGreeting:(id)sender {
     
     self.username = self.textField.text;
     
     NSString *nameString = self.username;
     
-    if ([nameString length == 0]) {
+    if ([nameString length] == 0) {
         
         nameString = @"World";
     }
+    
+    NSString *greeting = [[NSString alloc] initWithFormat:@"Hello, %@!", nameString];
+    self.label.text = greeting;
 
 }
 @end

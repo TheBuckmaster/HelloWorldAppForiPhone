@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface HelloWorldViewController : UIViewController
+<UITextFieldDelegate>
 @property (copy, nonatomic) NSString *username;
 @end
