@@ -5,4 +5,4 @@ This is a tutorial-app-turned-assignment for a class in iPhone development. A us
 
 A question related to the coding of this application was: "The tutorial says to send the resignFirstResponder message to theTextField in order to dismiss the keyboard, but the way it is describe this seems like a side-effect of that action. What is the main purpose of the resignFirstResponder message?"
 
-The answer to this question requires a little digging around the doucmentation for the iOS framework. 
+The answer to this question requires a little digging around the documentation for the iOS framework. 
